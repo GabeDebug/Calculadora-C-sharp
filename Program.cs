@@ -45,6 +45,9 @@ namespace Calculadora
 
         float resultado = v1 + v2;
         Console.WriteLine($"O resultado da soma é {resultado} ");
+        
+        Console.ReadKey();
+        Menu();
         }
 
         static void Subtracao()
@@ -59,6 +62,9 @@ namespace Calculadora
 
         float resultado = v1-v2;
         Console.WriteLine($"o Resultado da Subtracao: {resultado}");
+        
+        Console.ReadKey();
+        Menu();
         }
 
         static void Divizao()
@@ -73,6 +79,9 @@ namespace Calculadora
 
         float resultado = v1 / v2;
         Console.WriteLine($"O resultado da divizão: {resultado}");
+        
+        Console.ReadKey();
+        Menu();
     }
 
         static void Multiplicacao()
@@ -87,6 +96,9 @@ namespace Calculadora
 
         float resultado = v1 * v2;
         Console.WriteLine($"o Resultado da multiplicacao: {resultado}");
+        
+        Console.ReadKey();
+        Menu();
         }
     }
 }
